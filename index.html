@@ -7,6 +7,7 @@
 		<title>Palinta</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/palinta.css">
 		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -33,18 +34,12 @@
 					<ul>
 						<li>Introduction into IoT</li>
 						<li>Smart home systems</li>
-						<li>How to make a super smart home system...</li>
+						<li>How to make a "smart" home system...</li>
 					</ul>
 				</section>
 				<section>
 					<section>
 						<h2>Internet of Things</h2>
-						<aside class="notes">
-							* Az IoT nepszerusege
-							* Elnevezes eredete
-							* Korabbi megvalositasok
-							* Teruletek, ahol hasznaljak
-						</aside>
 					</section>
 					<section>
 						<blockquote cite="https://en.wikipedia.org/wiki/Internet_of_things">
@@ -61,22 +56,68 @@
 						</blockquote>
 					</section>
 					<section>
-						First Internet connected appliance: Coke machine
-						<!-- add image -->
-						<p>https://thefutureofsmart.wordpress.com/2014/10/04/the-first-iot-device-a-coke-machine/</p>
-					</section>
-					<section>
 						<h3>IoT Applications</h3>
 						<img src="./img/iot-applications.png" alt="">
-						<!--
-							https://www.researchgate.net/figure/Massive-IoT-applications-enabled-by-LPWANs_fig1_309617380
-						 -->
 					</section>
 					<section>
-						<h3>Internet of Shit</h3>
-						<img src="./img/iosit.png" alt="">
-						<!-- add image -->
-						<!-- TODO add examples-->
+						<h3>Fun facts, examples, concerns</h3>
+					</section>
+					<section>
+						<h3>First Internet connected appliance: a Coke machine</h3>
+						<img src="./img/internet-coke-machine-e1412283088169.png" alt="">
+						https://www.cs.cmu.edu/~coke/history_long.txt
+						https://thefutureofsmart.wordpress.com/2014/10/04/the-first-iot-device-a-coke-machine
+					</section>
+					<section>
+						<h3>Street lights with motion sensors</h3>
+						<img src="./img/street-lights.png" alt="">
+						<div id="palinta-small-text">
+							Existing solutions
+							<ul>
+								<li>https://www.citintelly.com/intelligent-street-lighting-products/motion-sensor-street-lighting</li>
+								<li>http://www.geolux-radars.com/smartlight</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<h3>Amazon Dash Button</h3>
+						<div>
+							<img src="./img/amazon_dash.jpg" alt="">
+						</div>
+					</section>
+					<section>
+						<h3>Amazon Dash Button</h3>
+						<div>
+							<img src="./img/dash_button.png" alt="">
+						</div>
+					</section>
+					<section>
+						<h3>Quirky Egg Minder</h3>
+						<img src="./img/eggholder.png" alt="">
+					</section>
+					<section>
+						<h3>oombrella - unforgettable umbrella</h3>
+						<img src="./img/oombrela.png" alt="">
+					</section>
+					<section>
+						<h3>Philips Hue</h3>
+						<img src="./img/philips_hue.jpeg" alt="">
+					</section>
+					<section>
+						<h3>How secure are your light bulbs?</h3>
+						<img src="./img/hue.png" alt="">
+						https://char.gd/blog/2018/how-secure-are-your-light-bulbs
+					</section>
+					<section>
+						<h3>Smart watches for kids</h3>
+						<img src="./img/Dokiwatch.jpg" alt="">
+					</section>
+					<section>
+						<h3>Banned smartwatches</h3>
+						<img src="./img/banned_watches.png" alt="">
+					</section>
+					<section>
+						<h3>DDOS attacks from IoT devices</h3>
 					</section>
 				</section>
 				<section>
@@ -84,32 +125,24 @@
 						<h3>Home automation</h3>
 						<h4>(smart home, smart house, domotics)</h4>
 					</section>
-					
-					<!-- TODO add picture -->
-					<aside class="notes">
-						* Az elso okos otthonok
-						* Mi a celjuk?
-						* Milyen megoldasok leteznek?
-					</aside>
-
 					<section>
-						<h3>Why do we need a smart home?</h3>
-						<aside class="notes">
-							Miert van szuksegunk okos otthonokra?
-
-							- biztonsag
-							- kenyelem
-							- szorakozas, pihenes
-						</aside>
+						<h3>Why do somebody need a smart home?</h3>
 					</section>
 					<section>
-						<h3>Types of home automations</h3>
-						<!-- Refrase -->
-						<ul>
-							<li>First generation: wireless technology with proxy server, e.g. Zigbee automation;</li>
-							<li>Second generation: artificial intelligence controls electrical devices, e.g. Amazon Echo;</li>
-							<li>Third generation: robot buddy who interacts with humans, e.g. Robot Rovio, Roomba.</li>
-						</ul>
+						<h3>Bosch Smart Home</h3>
+						<img src="./img/smart_home.jpg" alt="">
+					</section>
+					<section>
+						<h3>Amazon Alexa & Echo</h3>
+						<img src="./img/amazon_echo.jpg" alt="">
+					</section>
+					<section>
+						<h3>Roomba</h3>
+						<img src="./img/roomba.jpg" alt="">
+					</section>
+					<section>
+						<h3>Roomba war</h3>
+						<img src="./img/roomba_fight.png" alt="">
 					</section>
 				</section>
 				<section>
@@ -121,12 +154,6 @@
 							<li>How to communicate with the "smart" components?</li>
 							<li>How to connect them to each other?</li>
 						</ul>
-						<aside class="notes">
-							A bemutato tovabbi reszeben arrol fogok beszelni, hogy hogyan tudunk osszerakni egy 
-							kisebb okos otthont. Milyen hardver es szoftver eszkozoket hasznalhatunk? 
-							Hogyan tudjuk ezekkel az eszkozokkel kommunikalni es osszekotni oket a kinti vilaggal
-							vagy mas eszkozokkel. 
-						</aside>
 					</section>
 				</section>
 				<section>
@@ -137,12 +164,31 @@
 					<section>
 						<h3>How to choose the right hardware components?</h3>
 					</section>
-					<section>Particle photons</section>
 					<section>
-						Particle Cloud
-						<!-- TODO add picture -->
+						<h3>Particle</h3>
+						prototype-to-production framework
+						<br>
+						Hardware solutions: Photon, Electron, Core, Mesh.
+						<br>
+						Software solutions: Particle Cloud, SDK, Libraries, IDEs, CLI.
 					</section>
-					<section>Relay, temperature sensor, wires</section>
+					<section>
+						<h3>Particle Photons</h3>
+						<img src="./img/photon_pin_markings_1400.png" alt="" height="529" width="500">
+					</section>
+					<section>
+						<h3>Particle Cloud</h3>
+						<img src="./img/particle_cloud.png" alt="">
+					</section>
+					<section>
+						<h3>Sensors, relays, wires</h3>
+						<ul>
+							<li>Dallas DS18B20</li>
+							<li>Omron releys</li>
+							<li>WS2812B addressable RGB leds</li>
+							<li>etc...</li>
+						</ul>
+					</section>
 				</section>
 				<section>
 					<section>
@@ -151,7 +197,7 @@
 					<section>
 						<h3>Helios</h3>
 						<p>
-							Greek mythology: The personification of the Sun in the
+							Greek mythology: the personification of the Sun
 							<br>
 							Here: a component for controlling lights
 						</p>
@@ -159,7 +205,7 @@
 					<section>
 						<h3>Prometheus</h3>
 						<p>
-							Greek mythology: A Titan, who stole the fire from the Gods and gave it to the humanity.
+							Greek mythology: a Titan, who stole the fire from the Gods and gave it to the humanity
 							<br>
 							Here: a component for measuring temperature
 						</p>
@@ -182,45 +228,75 @@
 						<img src="./img/ifttt.png" alt="">
 					</section>
 					<section>
-						Live in action
+						<h3>Live in action</h3>
+						<ul>
+							<li>Alarm clock</li>
+							<li>Weather forecast</li>
+							<li>IFTTT Do Button</li>
+							<li>Turn lights on/off</li>
+							<li>Brew me a coffee</li>
+						</ul>
 					</section>
-					<section>Alarm clock</section>
-					<section>Weather forecast</section>
-					<section>IFTTT Do Button</section>
-					<section>Brew me a coffee</section>
 				</section>
 				<section>
 					<section>
-						<h3>Use local services</h3>
+						<h3>MQTT</h3>
+						<ul>
+							<li>machine-to-machine connectivity protocol</li>
+							<li>lightweight publish/subscribe messaging</li>
+						</ul>
 					</section>
-					<section>MQTT</section>
-					<section>MQTT Dashboard</section>
-					<section>Live in action</section>
-					<section>Smart watch integration</section>
+					<section>
+						<h3>MQTT architecture</h3>
+						<img src="./img/MQTT.png" alt="">
+					</section>
+					<section>
+						<h3>MQTT Dash</h3>
+						<img src="./img/mqtt_dash.png" alt="">
+						https://play.google.com/store/apps/details?id=net.routix.mqttdash
+					</section>
+					<section>
+						<h3>Live in action</h3>
+					</section>
 					<section>
 						<h2>We love diagrams. Diagrams are cool.</h2>
 						<h3>Grafana & InfluxDB</h3>
 					</section>
+					<section>
+						<h3>Grafana & InfluxDB</h3>
+						<img src="./img/demeter.png" alt="">
+					</section>
+					<section>
+						<h3 id="palinta-rainbow">Smart watch integration</h3>
+					</section>
 				</section>
 				<section>
-					<section>
-						<h3>Other examples</h3>
-					</section>
-					<section>
-						Amazon Dash Button
-					</section>
-					<!-- TODO add more examples -->
+					<h3>Palinta projects</h3>
+					<h4>https://github.com/palinta</h4>
+					<img src="./img/palinta-repo.png" alt="">
 				</section>
-				<section>Palinta repositories</section>
 				<section>
 					<h3>References</h3>
-					<ul>
-						<li>Particle: https://www.particle.io</li>
-						<li>Particle Cloud image: https://github.com/99xt/callstatus-notifier/wiki/Particle-Photon</li>
-						<li>Particle Photon datasheets: https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/</li>
-					</ul>
+					<section>
+						<ul>
+							<li>Particle: https://www.particle.io</li>
+							<li>Particle Cloud image: https://github.com/99xt/callstatus-notifier/wiki/Particle-Photon</li>
+							<li>Particle Photon datasheets: https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/</li>
+							<li>Amazon Dash Button: https://www.computing.co.uk/ctg/news/2469299/amazons-dash-button-service-arrives-in-the-uk</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li>IFTT: https://ifttt.com</li>
+							<li>MQTT: http://mqtt.org</li>
+							<li>MQTT broker: https://iot.eclipse.org</li>
+						</ul>
+					</section>
 				</section>
-				<section>Goodbye World!</section>
+				<section>
+					<h3>Goodbye World!</h3>
+					<img src="./img/doge2.png" alt="">
+				</section>
 			</div>
 		</div>
 
